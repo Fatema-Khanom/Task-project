@@ -1,6 +1,6 @@
 
 import { Link } from 'react-router-dom';
-import { FaHome, FaUsers } from "react-icons/fa";
+import {  FaUsers } from "react-icons/fa";
 import { AiFillProduct, AiOutlineProduct } from "react-icons/ai";
 import { MdAddBox } from "react-icons/md";
 import { FiLogOut } from "react-icons/fi";
@@ -11,19 +11,10 @@ const Sidebar = () => {
       <div className='px-4'>
         <h2 className="pl-4 text-2xl font-bold py-4">Admin Dashboard</h2>
         <ul className="mt-10">
+      
           <li className="">
             <Link
               to="/"
-              className="gap-1 flex items-center py-2.5 px-4 rounded transition duration-200 hover:bg-gray-700"
-              activeClassName="bg-gray-700"
-            >
-              <FaHome />
-              Home
-            </Link>
-          </li>
-          <li className="">
-            <Link
-              to="/users"
               className="gap-1 flex items-center py-2.5 px-4 rounded transition duration-200 hover:bg-gray-700"
               activeClassName="bg-gray-700"
             >
